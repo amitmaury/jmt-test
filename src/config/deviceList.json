@@ -1,0 +1,62 @@
+[
+    {
+        "device_name":"iPhone 12 Pro Max",
+        "brand":"Apple",
+        "device_id":"1"
+    },
+    {
+        "device_name":"iPhone 12 Pro",
+        "brand":"Apple",
+        "device_id":"2"
+    },
+    {
+        "device_name":"iPhone 12",
+        "brand":"Apple",
+        "device_id":"3"
+    },
+    {
+        "device_name":"iPad Air 2020",
+        "brand":"Internet",
+        "device_id":"3"
+    },
+    {
+        "device_name":"Galaxy S20 FE",
+        "brand":"Samsung",
+        "device_id":"5"
+    },
+    {
+        "device_name":"Huwaei MateBook D 14",
+        "brand":"Huawei",
+        "device_id":"6"
+    },
+    {
+        "device_name":"Xbox S",
+        "brand":"Internet",
+        "device_id":"7"
+    },
+    {
+        "device_name":"HUAWEI MatePad 4G",
+        "brand":"Huawei",
+        "device_id":"8"
+    },
+    {
+        "device_name":"Watch Series SE",
+        "brand":"Apple",
+        "device_id":"9"
+    },
+    {
+        "device_name":"Watch Series 6",
+        "brand":"Apple",
+        "device_id":"10"
+    },
+    {
+        "device_name":"iPad 8th generation",
+        "brand":"Apple",
+        "device_id":"11"
+    },
+    {
+        "device_name":"RedMagic 5S 5G",
+        "brand":"Internet",
+        "device_id":"12"
+    }
+]

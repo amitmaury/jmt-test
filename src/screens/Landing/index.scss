@@ -1,0 +1,81 @@
+#homeWrapper {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: #1a4198;
+    overflow: hidden;
+   
+    .inner-container {
+        margin: 0 auto;
+        max-width: 900px;
+        height: 600px;
+        background: rgb(255, 255, 255);
+        border-radius: 8px;
+        display: flex;
+        > div {
+            background-color: rgb(255, 255, 255);
+            width: 50%;
+            padding-left: 51px;
+            padding-right: 50px;
+            text-align: center;
+            line-height: 66px;
+        }
+        .landing-page-div {
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+            text-align: left;
+            .header-title {
+                width: 248px;
+                line-height: 28px;
+                color: rgb(49, 49, 49);
+                font-size: 28px;
+                font-family: Gilroy-Medium, sans-serif;
+                font-weight: 500;
+                letter-spacing: 0px;
+                margin-bottom: 8px;
+                margin-left:10px;
+            }
+            .landing-page-form {
+                .row {
+                    display: flex;
+                    .column {
+                        flex: 50%;
+                        padding: 10px;
+                      }
+                  }
+                
+                .MuiTextField-root {
+                    margin-top: 40px;
+                    width: 338px;
+                    height: 56px;
+                    border-radius: 2px;
+                }
+                .submit-btn{
+                    margin-left: 10px;
+                    .user-form-btn {
+                        width: 50%;
+                        height: 40px;
+                        background:#1a4198;
+                        border-radius: 4px;
+                        border-style: none !important;
+                        color: rgb(255, 255, 255);
+                        font-size: 16px;
+                        font-family: Gilroy-Semibold, sans-serif;
+                        font-weight: 600;
+                        cursor: pointer;
+                    }
+                    .user-form-btn:active,
+                    .user-form-btn:focus {
+                        outline: none;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.input:not([type]), input[type]:not(.browser-default){
+    border-bottom:none;
+    -webkit-box-shadow:none;
+}

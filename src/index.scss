@@ -1,0 +1,103 @@
+
+  :root {
+    --font-family: Gilroy, "sans-serif";
+    --gilroy-regular: "Gilroy-Regular", "sans-serif";
+    --gilroy-light: "Gilroy-Light", "sans-serif";
+    --gilroy-ultraLight: "Gilroy-UltraLight", "sans-serif";
+    --gilroy-thin: "Gilroy-Thin", "sans-serif";
+    --gilroy-medium: "Gilroy-Medium", "sans-serif";
+    --gilroy-semibold: "Gilroy-Semibold", "sans-serif";
+    --gilroy-bold: "Gilroy-Bold", "sans-serif";
+    --gilroy-extrabold: "Gilroy-Extrabold", "sans-serif";
+    --gilroy-heavy: "Gilroy-Heavy", "sans-serif";
+    --gilroy-blackItalic: "Gilroy-BlackItalic", "sans-serif";
+    --gilroy-heavyItalic: "Gilroy-HeavyItalic", "sans-serif";
+    --gilroy-boldItalic: "Gilroy-BoldItalic", "sans-serif";
+    --gilroy-lightItalic: "Gilroy-LightItalic", "sans-serif";
+    --gilroy-extraboldItalic: "Gilroy-ExtraboldItalic", "sans-serif";
+    --gilroy-mediumItalic: "Gilroy-MediumItalic", "sans-serif";
+    --gilroy-black: "Gilroy-Black", "sans-serif";
+    --gilroy-semiboldItalic: "Gilroy-SemiboldItalic", "sans-serif";
+    --gilroy-regularItalic: "Gilroy-RegularItalic", "sans-serif";
+    --gilroy-ultraLightItalic: "Gilroy-UltraLightItalic", "sans-serif";
+    --gilroy-thinItalic: "Gilroy-ThinItalic", "sans-serif";
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f5f6f9;
+    overflow: auto;
+    padding: 0px !important;
+  
+    // custom Scrollar
+    /* width */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+  
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px transparent;
+      border-radius: 10px;
+    }
+  
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #ccc;
+      border-radius: 10px;
+    }
+  
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #eee;
+    }
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  }
+  
+  // // custom Scrollar
+  // /* width */
+  // ::-webkit-scrollbar {
+  //   width: 8px;
+  // }
+  
+  // /* Track */
+  // ::-webkit-scrollbar-track {
+  //   box-shadow: inset 0 0 5px transparent;
+  //   border-radius: 10px;
+  // }
+  
+  // /* Handle */
+  // ::-webkit-scrollbar-thumb {
+  //   background: #ccc;
+  //   border-radius: 10px;
+  // }
+  
+  // /* Handle on hover */
+  // ::-webkit-scrollbar-thumb:hover {
+  //   background: #eee;
+  // }
+  
+  @media only screen and (max-width: 1345px) {
+    html {
+      zoom: 0.9;
+    }
+  }
+  
+  html,
+  body,
+  #root {
+    height: 100%;
+    padding: 0px !important;
+    overflow: auto !important;
+  }
+  

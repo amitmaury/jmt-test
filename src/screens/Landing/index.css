@@ -1,0 +1,65 @@
+#homeWrapper {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: #1a4198;
+  overflow: hidden; }
+  #homeWrapper .inner-container {
+    margin: 0 auto;
+    max-width: 900px;
+    height: 600px;
+    background: white;
+    border-radius: 8px;
+    display: flex; }
+    #homeWrapper .inner-container > div {
+      background-color: white;
+      width: 50%;
+      padding-left: 51px;
+      padding-right: 50px;
+      text-align: center;
+      line-height: 66px; }
+    #homeWrapper .inner-container .landing-page-div {
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      text-align: left; }
+      #homeWrapper .inner-container .landing-page-div .header-title {
+        width: 248px;
+        line-height: 28px;
+        color: #313131;
+        font-size: 28px;
+        font-family: Gilroy-Medium, sans-serif;
+        font-weight: 500;
+        letter-spacing: 0px;
+        margin-bottom: 8px;
+        margin-left: 10px; }
+      #homeWrapper .inner-container .landing-page-div .landing-page-form .row {
+        display: flex; }
+        #homeWrapper .inner-container .landing-page-div .landing-page-form .row .column {
+          flex: 50%;
+          padding: 10px; }
+      #homeWrapper .inner-container .landing-page-div .landing-page-form .MuiTextField-root {
+        margin-top: 40px;
+        width: 338px;
+        height: 56px;
+        border-radius: 2px; }
+      #homeWrapper .inner-container .landing-page-div .landing-page-form .submit-btn {
+        margin-left: 10px; }
+        #homeWrapper .inner-container .landing-page-div .landing-page-form .submit-btn .user-form-btn {
+          width: 50%;
+          height: 40px;
+          background: #1a4198;
+          border-radius: 4px;
+          border-style: none !important;
+          color: white;
+          font-size: 16px;
+          font-family: Gilroy-Semibold, sans-serif;
+          font-weight: 600;
+          cursor: pointer; }
+        #homeWrapper .inner-container .landing-page-div .landing-page-form .submit-btn .user-form-btn:active,
+        #homeWrapper .inner-container .landing-page-div .landing-page-form .submit-btn .user-form-btn:focus {
+          outline: none;
+          text-decoration: none; }
+
+.input:not([type]), input[type]:not(.browser-default) {
+  border-bottom: none;
+  -webkit-box-shadow: none; }
