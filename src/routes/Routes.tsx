@@ -4,7 +4,7 @@ import NonPrivateRoute from "./NonPrivateRoute";
 import Header from "../Components/Header/Header";
 import Home from "../screens/Landing/index";
 import Devices from "../screens/Devices/index"
-import './routes.css';
+import './routes.scss';
 
 function Routes() {
   return (
